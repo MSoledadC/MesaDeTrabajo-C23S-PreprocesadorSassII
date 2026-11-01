@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 40px auto 20px auto;
+}
+header span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+header nav {
+  display: flex;
+  gap: 15px;
+}
+header li {
+  list-style-type: none;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  gap: 60px;
+}
+main .seccion1 {
+  display: flex;
+}
+main .seccion1 > div {
+  width: 50%;
+}
+main .seccion1 img {
+  width: 100%;
+}
+main .seccion1 h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 10px;
+  margin-bottom: 35px;
+}
+main .seccion1 p {
+  color: #8b8b8b;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+main .seccion1 .botones {
+  display: flex;
+  gap: 20px;
+}
+main .seccion1 .btn {
+  background-color: #03faee;
+  color: #000000;
+  border: none;
+  padding: 15px 35px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px #92f7f2;
+}
+main .cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+  background-color: #f8f8f8;
+  padding: 35px 30px;
+  flex: 1;
+  border-radius: 6px;
+}
+main .cards h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+main .cards .numero {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #03faee;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+footer {
+  width: 85%;
+  margin: 40px auto 50px auto;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .redes {
+  display: flex;
+  gap: 50px;
+}
+footer .redes a {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
