@@ -80,11 +80,12 @@ main .seccion1 .btn {
 main .cards {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   gap: 30px;
+}
+main .cards .card {
+  width: 100%;
   background-color: #f8f8f8;
   padding: 35px 30px;
-  flex: 1;
   border-radius: 6px;
 }
 main .cards h3 {
